@@ -37,4 +37,30 @@ dlt_project/
 ├── requirements.txt               # Python dependencies
 ├── .gitignore                     # Ignored files
 └── README.md                      # Documentation
+
 ```
+
+---
+
+## 📸 Architecture Overview
+
+![ETL Architecture](https://github.com/ChahiriAbderrahmane/dlt_project/blob/master/assets/etl_dbt.jpg)
+
+---
+
+## ✅ Data Loaded Successfully
+
+After the pipeline runs, data is successfully inserted into a local **PostgreSQL** database:
+
+![Data Loaded](https://github.com/ChahiriAbderrahmane/dlt_project/blob/master/assets/data_loaded_successfully.png)
+
+---
+
+## 🚀 How to Run the Project
+
+1. **Clone the repository**:
+   ```bash
+   git clone git@github.com:ChahiriAbderrahmane/dlt_project.git
+   cd dlt_project
+
+
