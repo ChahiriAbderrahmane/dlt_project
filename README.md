@@ -25,3 +25,16 @@ This project demonstrates how to build a simple but powerful **ETL pipeline** us
 
 ## 📁 Project Structure
 
+```
+dlt_project/
+│
+├── .dlt/                          # DLT pipeline metadata
+├── .venv/                         # Virtual environment (ignored)
+├── assets/                        # Images and visual documentation
+│   ├── etl_dbt.jpg
+│   └── data_loaded_successfully.png
+├── etl.py                         # Main ETL script
+├── requirements.txt               # Python dependencies
+├── .gitignore                     # Ignored files
+└── README.md                      # Documentation
+```
