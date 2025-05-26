@@ -64,3 +64,16 @@ After the pipeline runs, data is successfully inserted into a local **PostgreSQL
    cd dlt_project
 
 
+
+2. **Create a virtual environment & install dependencies**:
+```
+python -m venv .venv
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+pip install -r requirements.txt
+```
+
+3. **Set up PostgreSQL and create a database named AdventureWorks.**
+4. **Configure your credentials in a DLT config.toml or secrets file.**
+5. **Run the ETL pipeline**:
+```python etl.py```
+
